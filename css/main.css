@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'the_philadelphia_storyregular';
+  src: url("../fonts/the_philadelphia_story-webfont.woff2") format("woff2"), url("../fonts/the_philadelphia_story-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #636568;
+}
+
+.container {
+  background-color: white;
+  padding: 0;
+}
+
+nav {
+  background-color: #D71920;
+}
+
+nav .logo {
+  width: 30px;
+  height: 30px;
+}
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 12px;
+}
+
+#footer {
+  bottom: 0;
+  padding: 10px 12px;
+  background-color: #000000;
+  color: white;
+}
+
+#footer .copyright,
+#footer .left-text,
+#footer .right-text {
+  font-size: .9rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#footer .left-text {
+  padding-left: 5px;
+}
+
+#footer .right-text {
+  padding-right: 5px;
+  text-align: right;
+}
+
+#footer .logo {
+  width: 300px;
+  height: 50px;
+}
+
+#footer a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #D71920;
+  text-decoration: underline;
+}
+
+#footer a:active {
+  color: #D71920;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "the_philadelphia_storyregular";
+}
+
+h1.welcome {
+  margin-top: 25px;
+  text-align: center;
+}
+
+h1.title {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.card {
+  margin-top: 25px;
+}
+
+.card-body {
+  background-color: #636568;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
